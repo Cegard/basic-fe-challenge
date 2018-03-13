@@ -1,1 +1,51 @@
-/* Styles here! */
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.bar_menu ul {
+	background: #FF3F10;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.bar_menu li {
+	display: inline-block;
+	background: #FF3F10;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+
+.bar_menu a:hover {
+	background: #FFFFFF;
+	color: #FF3F10;
+}
+
+
+.bar_menu a {
+  text-decoration: none;
+  display: block;
+  color: #FFFFFF;
+	padding: 20px;
+	vertical-align: middle;
+}
+
+
+.bar_menu img{
+	padding-right: 50px;
+	padding-left: 20px;
+	height: 40px;
+}
+
+
+.head_image {
+	
+}
