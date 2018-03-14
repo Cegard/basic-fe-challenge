@@ -3,6 +3,14 @@
 body {
 	margin: 0;
 	padding: 0;
+	max-width: 1250px;
+	background: #EEEEEE;
+}
+
+
+.page {
+	width: 100%;
+	margin-left: 6%;
 }
 
 
@@ -49,7 +57,6 @@ body {
 .head_image {
 	position: relative;
 	z-index: 0;
-	width: 1250px;
 	height: 800px;
 }
 
@@ -75,7 +82,28 @@ body {
 	color: #FFFFFF;
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
-	font-size: 90px;
+	font-size: 86px;
 	text-align: center;
 	padding-top: 6%;
+}
+
+
+.head_image .parraf hr{
+	width: 100px;
+	height: 15px;
+	background: #FF3F10;
+	border: hidden;
+}
+
+
+.content_text{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.content_text p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	text-align: justify;
 }
